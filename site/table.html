@@ -5,20 +5,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Viikko 1 – Taulukko</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Taulukko-sivun H1 --></h1>
+    <h1>Taulukko</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+        <ul>
+        <li><a href = "form.html">Lomake</a></li>
+        <li><a href = "index.html">Etusivu</a></li>
+        <li><a href = "image.html">Kuva</a></li>
+        <li><a href = "table.html">Taulukko</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-    <!-- TODO: Lisää datataulukko, jossa on caption + thead/tbody -->
+   <table>
+    <caption>Esimerkkitaulukko</caption>
+    <thead>
+      <tr>
+        <th>Etunimi  </th>
+          <th>Sukunimi</th>
+            <th>Ikä</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jere</td>
+        <td>Pähtilä</td>
+        <td>22</td>
+      </tr>
+    </tbody>
+   </table>
   </main>
   <footer>
-    <!-- TODO: Footer -->
+  <p>Tämä sivu on osa Web-sovellusten perusteet -kurssin viikkotehtävää.</p>
   </footer>
 </body>
 </html>

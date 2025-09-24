@@ -5,25 +5,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Viikko 1 – Lomake</title>
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1><!-- TODO: Lomake-sivun H1 --></h1>
+    <h1>Lomake</h1>
     <nav aria-label="Päävalikko">
-      <!-- TODO: Sama navigaatio kuin muilla sivuilla -->
+        <ul>
+        <li><a href = "index.html">Etusivu</a></li>
+        <li><a href = "table.html">Taulukko</a></li>
+        <li><a href = "image.html">Kuva</a></li>
+        <li><a href = "form.html">Lomake</a></li>
+      </ul>
     </nav>
+    
   </header>
   <main>
-    <!-- TODO: Luo <form>:
-         - lisää label for + id parit
-         - järkevät type-arvot (email, number, tms.)
-         - method ja action attribuutit
-         - submit-painike
-    -->
+<form action = "kiitos.html" method = "post">
+      <label for = "Sähköposti">Sähköposti</label><br>
+      <input type = "email" id = "Sähköposti" name = "Sähköposti" required><br>
+      <button type = "submit">Lähetä</button>
+    </form>
   </main>
   <footer>
-    <!-- TODO: Footer -->
+  <p>Tämä sivu on osa Web-sovellusten perusteet -kurssin viikkotehtävää.</p>
   </footer>
 </body>
 </html>
